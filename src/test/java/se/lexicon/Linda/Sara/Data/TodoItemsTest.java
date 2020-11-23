@@ -4,6 +4,9 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
+import se.lexicon.Linda.Sara.Data.TodoItems;
+import se.lexicon.Linda.Sara.Data.TodoSequancer;
+import se.lexicon.Linda.Sara.Model.Todo;
 
 public class TodoItemsTest {
 
