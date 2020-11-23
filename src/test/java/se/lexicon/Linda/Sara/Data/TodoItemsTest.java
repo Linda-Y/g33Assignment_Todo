@@ -12,48 +12,47 @@ public class TodoItemsTest {
 
     @Before
     public void setUp()  {
+
         testbroject=new TodoItems();
     }
 
     @Test
-    public void size() {
+    public void sizetest() {
         int
     }
 
     @Test
-    public void findAll() {
+    public void findAlltest() {
 
     }
 
     @Test
-    public void findById() {
+    public void findByIdtest() {
     }
 
     @Test
-    public void addNewDoingToArray() {
+    public void addNewDoingToArraytest() {
+    }
+
+
+
+    @Test
+    public void findByDoneStatustest() {
     }
 
     @Test
-    public void clear() {
+    public void findByAssigneetest() {
     }
 
     @Test
-    public void findByDoneStatus() {
+    public void testFindByAssigneetest() {
     }
 
     @Test
-    public void findByAssignee() {
+    public void findUnassignedTodoItemstest() {
     }
 
     @Test
-    public void testFindByAssignee() {
-    }
-
-    @Test
-    public void finfUnassignedTodoItems() {
-    }
-
-    @Test
-    public void removeObjectFromArray() {
+    public void removeObjectFromArraytest() {
     }
 }
