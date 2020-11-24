@@ -13,17 +13,17 @@ public class App
         System.out.println("Hello World!");
 
         Person[]person=new Person[3];
-        person[0]= new Person(20, "Adam", "Ryan");
-        person[1]= new Person(20, "Linda", "Yousif");
-        person[2]= new Person(20, "Sara", "IranShahi");
-        person[3]= new Person(20, "Carl","Göran");
+        person[0]= new Person("Adam", "Ryan");
+        person[1]= new Person("Linda", "Yousif");
+        person[2]= new Person("Sara", "IranShahi");
+        person[3]= new Person("Carl","Göran");
 
 
 
 
-        Person Adam_Ryan = new Person(20, "Adam", "Ryan");
-        Person Linda_Yousif = new Person(20, "Linda", "Yousif");
-        Person Sara_iranshahi = new Person(20, "Sara", "IranShahi");
+        Person Adam_Ryan = new Person("Adam", "Ryan");
+        Person Linda_Yousif = new Person("Linda", "Yousif");
+        Person Sara_iranshahi = new Person("Sara", "IranShahi");
         Todo Homework=new Todo("Homwork");
 
         System.out.println(Adam_Ryan.toString());

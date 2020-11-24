@@ -10,25 +10,21 @@ import se.lexicon.Linda.Sara.Data.People;
 
 ///// test  not finshed
 
-import static org.junit.Assert.*;
-
 public class PeopleTest {
-    People people;
-    Person person;
+    People testobject;
 
     @Before
-    public void setUp()  {
-      people=new People();
-
-
-    }
+    public void setUp() {
+        testobject =new People() ;}
 
     @Test
-    public void addNewPersonArray
-        Person person=new Person(20,"William","Fransson");
-        assertEquals("Test getFirstName","William",person.getFirstName());
-        assertEquals("Test getLastName","Fransson",person.getLastName());
-        assertEquals("Test getPersonId",20, person.getPersonId());
+    public void addNewPersonArrayTest(){
+        Person testPerson=new Person("William","Fransson");
+    Person[]expected={testPerson};
+
+        assertTrue(testobject.findAll().length==0);
+        Person[]actual=testobject.addNewPersonToArray(testPerson);
+        assertArrayEquuals(expected,actual);
     }
     }
 

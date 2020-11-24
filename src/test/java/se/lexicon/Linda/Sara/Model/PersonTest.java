@@ -9,7 +9,7 @@ public class PersonTest {
     public void createPerson()
     {
 
-        Person person=new Person(20,"William","Fransson");
+        Person person=new Person("William","Fransson");
         assertEquals("Test getFirstName","William",person.getFirstName());
         assertEquals("Test getLastName","Fransson",person.getLastName());
         assertEquals("Test getPersonId",20, person.getPersonId());
