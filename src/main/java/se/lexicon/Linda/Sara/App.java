@@ -12,7 +12,7 @@ public class App
     public static void main( String[] args ) {
         System.out.println("Hello World!");
 
-        Person[]person=new Person[3];
+      /*  Person[]person=new Person[3];
         person[0]= new Person("Adam", "Ryan");
         person[1]= new Person("Linda", "Yousif");
         person[2]= new Person("Sara", "IranShahi");
@@ -27,6 +27,6 @@ public class App
         Todo Homework=new Todo("Homwork");
 
         System.out.println(Adam_Ryan.toString());
-        System.out.println(Homework.toString());
+        System.out.println(Homework.toString());*/
     }
 }

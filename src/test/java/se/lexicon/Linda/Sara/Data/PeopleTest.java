@@ -22,11 +22,11 @@ public class PeopleTest {
         Person testPerson=new Person("William","Fransson");
     Person[]expected={testPerson};
 
-        assertTrue(testobject.findAll().length==0);
+        assertTrue(testobject.findAll().length==0); // why
         Person[]actual=testobject.addNewPersonToArray(testPerson);
         assertArrayEquuals(expected,actual);
     }
-    }
+
 
     @Test
     public void size_test() {
@@ -51,7 +51,7 @@ public class PeopleTest {
     int expected=0;
     People.removeObjectFromArray(1);
     Assert.assertequals(expected,People.size());
-    Assert.assertNull(People.findById(2);)
+    Assert.assertNull(People.findById(2));
 
     }
 }

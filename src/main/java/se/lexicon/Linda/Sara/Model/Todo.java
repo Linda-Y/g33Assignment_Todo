@@ -50,12 +50,12 @@ public class Todo {
     }
 
     @Override
-    public String toString() {
+   /* public String toString() {
         return "Todo{" +
                 "todoId=" + todoId +
                 ", description='" + description + '\'' +
                 ", done=" + done +
                 ", assignee=" + assignee +
                 '}';
-    }
+    }*/
 }

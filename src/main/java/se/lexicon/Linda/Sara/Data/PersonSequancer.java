@@ -10,5 +10,6 @@ public class PersonSequancer {
 
         return PersonSequancer.personId;
     }
+    //the value personId will trnsfer till Class Person
 
 }

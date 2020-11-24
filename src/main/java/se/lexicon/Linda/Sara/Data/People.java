@@ -69,7 +69,7 @@ public class People {
 
     //clears all Person objects from the Person array.
 
-    public void clear()
+    public static void clear()
 
     {
     person=new Person[0];
@@ -77,9 +77,10 @@ public class People {
 
     /* founction to remove object from array
      *  - find the correct array index of the object
-     *  - excluding the object on found index */
+     *  - excluding the object on found index
+     * return*/
 
-    public Person[] removeObjectFromArray (int personId)
+    public static Person[] removeObjectFromArray(int personId)
     {
         int n = 0;
 

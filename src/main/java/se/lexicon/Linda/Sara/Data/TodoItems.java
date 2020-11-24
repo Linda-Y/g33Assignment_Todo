@@ -201,12 +201,12 @@ public class TodoItems
             return todoing;
        }
 
-    @Override
+    /*@Override
     public String toString() {
         return "TodoItems{" +
                 "find=" + Arrays.toString(find) +
                 '}';
-    }
+    }*/
 }
 
 
